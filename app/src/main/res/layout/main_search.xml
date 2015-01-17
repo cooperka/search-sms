@@ -1,115 +1,117 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
-	xmlns:android="http://schemas.android.com/apk/res/android"
-	android:orientation="vertical"
-	android:layout_width="fill_parent"
-	android:layout_height="fill_parent"
->
-	<LinearLayout
-		android:orientation="horizontal"
-		android:layout_width="fill_parent"
-		android:layout_height="wrap_content"
-		android:gravity="center"
-		android:layout_marginTop="10dp"
-	>
-		<CheckBox
-		    android:tag="c_inbox"
-			android:id="@+id/c_inbox"
-			android:layout_width="wrap_content"
-			android:layout_height="wrap_content"
-			android:checked="true"
-		/>
-		<TextView
-			android:id="@+id/tv_inbox"
-			android:layout_width="wrap_content"
-			android:layout_height="fill_parent"
-			android:text="@string/inbox"
-			android:paddingTop="15dp"
-			android:paddingRight="15dp"
-		/>
-		<CheckBox
-		    android:tag="c_sent"
-			android:id="@+id/c_sent"
-			android:layout_width="wrap_content"
-			android:layout_height="wrap_content"
-			android:checked="true"
-		/>
-		<TextView
-			android:id="@+id/tv_sent"
-			android:layout_width="wrap_content"
-			android:layout_height="fill_parent"
-			android:text="@string/sent"
-			android:paddingTop="15dp"
-			android:paddingRight="15dp"
-		/>
-		<CheckBox
-		    android:tag="c_other"
-			android:id="@+id/c_other"
-			android:layout_width="wrap_content"
-			android:layout_height="wrap_content"
-			android:checked="true"
-		/>
-		<TextView
-			android:id="@+id/tv_other"
-			android:layout_width="wrap_content"
-			android:layout_height="fill_parent"
-			android:text="@string/other"
-			android:paddingTop="15dp"
-		/>
-		<!--
-		<Button
-		    android:tag="b_saved"
-			android:id="@+id/b_saved"
-			android:layout_width="wrap_content"
-			android:layout_height="wrap_content"
-			android:text="@string/button_saved"
-			android:textSize="14sp"
-			android:layout_marginLeft="10dp"
-		/>
-		-->
-	</LinearLayout>
-	<LinearLayout
-		android:orientation="horizontal"
-		android:layout_width="fill_parent"
-		android:layout_height="wrap_content"
-		android:gravity="center"
-	>
-		<EditText
-			android:id="@+id/query"
-			android:layout_width="0dip"
-			android:layout_height="wrap_content"
-			android:inputType="text"
-			android:layout_margin="10dp"
-			android:layout_weight="1"
-		/>
-		<Button
-		    android:tag="b_search"
-			android:id="@+id/search"
-			android:layout_width="wrap_content"
-			android:layout_height="wrap_content"
-			android:text="@string/button_search"
-			android:textSize="14sp"
-		/>
-		<ProgressBar
-			android:id="@+id/sPBar"
-			android:layout_width="wrap_content"
-			android:layout_height="wrap_content"
-			android:visibility="gone"
-			android:layout_marginRight="16dp"
-		/>
-	</LinearLayout>
-	<ListView
-		android:id="@+id/android:list"
-		android:layout_width="fill_parent"
-		android:layout_height="0dip"
-		android:layout_weight="1"
-	/>
-	<TextView
-		android:id="@+id/android:empty"
-		android:layout_width="fill_parent"
-		android:layout_height="fill_parent"
-		android:text="@string/empty_search"
-		android:paddingTop="20dp"
-		android:gravity="center_horizontal"
-	/>
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="10dp">
+
+        <CheckBox
+            android:tag="c_inbox"
+            android:id="@+id/c_inbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true" />
+
+        <TextView
+            android:id="@+id/tv_inbox"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:text="@string/inbox"
+            android:paddingTop="15dp"
+            android:paddingRight="15dp" />
+
+        <CheckBox
+            android:tag="c_sent"
+            android:id="@+id/c_sent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true" />
+
+        <TextView
+            android:id="@+id/tv_sent"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:text="@string/sent"
+            android:paddingTop="15dp"
+            android:paddingRight="15dp" />
+
+        <CheckBox
+            android:tag="c_other"
+            android:id="@+id/c_other"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true" />
+
+        <TextView
+            android:id="@+id/tv_other"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:text="@string/other"
+            android:paddingTop="15dp" />
+
+        <!--
+        <Button
+            android:tag="b_saved"
+            android:id="@+id/b_saved"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/button_saved"
+            android:textSize="14sp"
+            android:layout_marginLeft="10dp" />
+        -->
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <EditText
+            android:id="@+id/query"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:layout_margin="10dp"
+            android:layout_weight="1" />
+
+        <Button
+            android:tag="b_search"
+            android:id="@+id/search"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/button_search"
+            android:textSize="14sp" />
+
+        <ProgressBar
+            android:id="@+id/sPBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:layout_marginRight="16dp" />
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/android:list"
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1" />
+
+    <TextView
+        android:id="@+id/android:empty"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:text="@string/empty_search"
+        android:paddingTop="20dp"
+        android:gravity="center_horizontal" />
+
 </LinearLayout>

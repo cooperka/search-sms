@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
-	xmlns:android="http://schemas.android.com/apk/res/android"
-	android:orientation="vertical"
-	android:layout_width="fill_parent"
-	android:layout_height="fill_parent"
-	android:gravity="center_horizontal"
->
-	<Button
-		android:id="@+id/backup"
-		android:layout_width="wrap_content"
-		android:layout_height="wrap_content"
-		android:text="@string/button_backup"
-		android:textSize="14sp"
-		android:layout_margin="30dp"
-	/>
-	<Button
-		android:id="@+id/restore"
-		android:layout_width="wrap_content"
-		android:layout_height="wrap_content"
-		android:text="@string/button_restore"
-		android:textSize="14sp"
-	/>
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center_horizontal">
+
+    <Button
+        android:id="@+id/backup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_backup"
+        android:textSize="14sp"
+        android:layout_margin="30dp" />
+
+    <Button
+        android:id="@+id/restore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_restore"
+        android:textSize="14sp" />
+
 </LinearLayout>
