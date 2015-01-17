@@ -32,7 +32,3 @@ All the code here is in its original form, and hasn't been modified since I wrot
 ## Credits
 
 Credit to the [Axialis Team](http://www.axialis.com/free/icons/) for providing the free icons I use here.
-
-## License
-
-[Search SMS](https://github.com/cooperka/SearchSMS) by [Kevin Cooper](https://github.com/cooperka) is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/) (CC-BY-SA).
