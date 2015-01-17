@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+>
+<TableLayout
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+>
+	<TableRow
+	    android:id="@+id/rowAnaButton"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+		android:gravity="center_horizontal"
+	>
+		<Button
+		    android:tag="anaButton"
+			android:id="@+id/anaButton"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/button_analyze"
+			android:textSize="14sp"
+			android:layout_margin="30dp"
+		/>
+		<ProgressBar
+			android:id="@+id/anaProg"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_margin="30dp"
+			android:visibility="gone"
+		/>
+	</TableRow>
+	<TableRow
+	    android:id="@+id/rowAnaEmpty"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+		android:gravity="center_horizontal"
+	>
+		<TextView
+			android:id="@+id/stats"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textSize="15sp"
+			android:text="@string/analyze_info"
+			android:gravity="right"
+		/>
+	</TableRow>
+	
+	<TableLayout
+	    android:id="@+id/anaTable"
+		android:orientation="vertical"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:stretchColumns="*"
+		android:layout_margin="20dp"
+		android:gravity="center_horizontal"
+	>
+		<TableRow
+		    android:id="@+id/th"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		>
+		    <TextView
+		        android:id="@+id/col1"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="@string/colRank"
+		        android:textStyle="bold"
+				android:gravity="right"
+		    />
+		    <TextView
+		        android:id="@+id/col2"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="@string/colWord"
+		        android:textStyle="bold"
+				android:gravity="right"
+	        />
+		    <TextView
+		        android:id="@+id/col3"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="@string/colOcc"
+		        android:textStyle="bold"
+				android:gravity="right"
+	        />
+		</TableRow>
+	</TableLayout>
+</TableLayout>
+</ScrollView>
