@@ -10,7 +10,11 @@ This project is set up for Android Studio. Simply clone the repo and open it up 
 
 ## Usage
 
-TODO: Write usage
+Type in a phrase to search for and tap Search! You can optionally narrow it down to exactly which type of messages to search for (sent vs. received). On a separate tab, you can tap Analyze and see stats about your texting habits. Backup and Restore don't work.
+
+[Picture of some search results](https://github.com/cooperka/SearchSMS/tree/master/images/ss_1.png)
+
+[Picture of analytics](https://github.com/cooperka/SearchSMS/tree/master/images/ss_2.png)
 
 ## History
 
