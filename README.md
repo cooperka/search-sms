@@ -14,11 +14,11 @@ This project is set up for [Android Studio](http://developer.android.com/tools/s
 
 Type in a phrase to search for, and tap Search! You can optionally narrow it down to specific types of messages to search for (sent vs. received).
 
-![Screenshot of search results](/blob/master/images/ss_1.png "Search results")
+![Screenshot of search results](/images/ss_1.png "Search results")
 
 On a separate tab, you can tap Analyze to see stats about your texting habits. Backup and Restore aren't yet implemented.
 
-![Screenshot of word analytics](/blob/master/images/ss_2.png "Word analytics")
+![Screenshot of word analytics](/images/ss_2.png "Word analytics")
 
 ## History
 
